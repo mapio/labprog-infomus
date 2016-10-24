@@ -14,7 +14,7 @@ Chi intendesse utilizzare questo materiale al di fuori del laboratorio (ad esemp
 - nella directory `bin/` non sono presenti i comandi `firma`, `consegna` ed `identifica` ,
   che sono utili, e disponibili, solo nel contesto del laboratorio;
 
-- per poter eseguire i *test* è la necessario definire la variabile d'ambiente
+- per poter eseguire i *test* è necessario definire la variabile d'ambiente
   `MAKEFILES` in modo che contenga il percorso assoluto del file `./bin/Makefile`
   (tale variabile risulta viceversa già  definita nell'ambiente di laboratorio).
 
