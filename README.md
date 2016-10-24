@@ -11,7 +11,7 @@ programmazione](https://santini.di.unimi.it/d/labprog/laboratorio.html)" a cui s
 
 Chi intendesse utilizzare questo materiale al di fuori del laboratorio (ad esempio per esercitarsi a casa, o per prepararsi all'esame) può scaricare un [archivio compresso](https://github.com/mapio/labprog-infomus/archive/master.zip) di questo repository, oppure ottenere un *clone* locale con il comando `git clone git@github.com:mapio/labprog-infomus.git`; in questo caso si osserva che:
 
-- nella directory `bin/` non sono presenti i comandi `consegna` ed `identifica` ,
+- nella directory `bin/` non sono presenti i comandi `firma`, `consegna` ed `identifica` ,
   che sono utili, e disponibili, solo nel contesto del laboratorio;
 
 - per poter eseguire i *test* è la necessario definire la variabile d'ambiente
