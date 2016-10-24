@@ -11,18 +11,22 @@ programmazione](https://santini.di.unimi.it/d/labprog/laboratorio.html)" a cui s
 
 Chi intendesse utilizzare questo materiale al di fuori del laboratorio (ad esempio per esercitarsi a casa, o per prepararsi all'esame) può scaricare un [archivio compresso](https://github.com/mapio/labprog-infomus/archive/master.zip) di questo repository, oppure ottenere un *clone* locale con il comando `git clone git@github.com:mapio/labprog-infomus.git`; in questo caso si osserva che:
 
-- nella directory `bin/` non sono presenti i comandi `firma`, `consegna` ed `identifica` ,
-  che sono utili, e disponibili, solo nel contesto del laboratorio;
+- il comando `firma` non è definito, non è infatti prevista una modalità di autenticazione
+  nel caso di utilizzo al di fuori del laboratorio;
+
+- non è presente il file `LEGGIMI.md`, sostituito da questo file;
+
+- non è presente la directory `bin/`, il cui contenuto è utile, e disponibile,
+  solo nel contesto del laboratorio;
 
 - per poter eseguire i *test* è necessario definire la variabile d'ambiente
-  `MAKEFILES` in modo che contenga il percorso assoluto del file `./bin/Makefile`
+  `MAKEFILES` in modo che contenga il percorso assoluto del file `Makefile`
   (tale variabile risulta viceversa già  definita nell'ambiente di laboratorio).
 
 Se si usa l'interprete di comandi `bash`, la variabile d'ambiente `MAKEFILES` può
-essere definita semplicemente portandosi nella directory relativa ad una lezione
-e quindi dando i comandi
+essere definita semplicemente portandosi nella directory in cui è contenuto questo
+file `README.md` ed impartire il comando
 
-	cd ./bin
 	export MAKEFILES=$(pwd)/Makefile
 
 ## Nota di copyright
