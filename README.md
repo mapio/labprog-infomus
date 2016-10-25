@@ -1,4 +1,4 @@
-# Esercizi per il laboratorio di "Programmazione" del corso di "Informatica Musicale"
+# Leioni del laboratorio di "Programmazione" del corso di "Informatica Musicale"
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
@@ -8,6 +8,8 @@ Questo repository contiene i testi degli esercizi del [laboratorio](https://sant
 Il contenuto relativo ad una lezione coincide sostanzialmente con quanto descritto nella guida "[Istruzioni
 per lo svolgimento degli esercizi del laboratorio di
 programmazione](https://santini.di.unimi.it/d/labprog/laboratorio.html)" a cui si rimanda per maggiori informazioni.
+
+## A casa
 
 Chi intendesse utilizzare questo materiale al di fuori del laboratorio (ad esempio per esercitarsi a casa, o per prepararsi all'esame) può scaricare un [archivio compresso](https://github.com/mapio/labprog-infomus/archive/master.zip) di questo repository, oppure ottenere un *clone* locale con il comando `git clone git@github.com:mapio/labprog-infomus.git`; in questo caso si osserva che:
 
@@ -28,6 +30,12 @@ essere definita semplicemente portandosi nella directory in cui è contenuto que
 file `README.md` ed impartire il comando
 
 	export MAKEFILES=$(pwd)/Makefile
+
+## In laboratorio
+
+Durante lo svolgimento delle lezioni, il materiale contenuto in questo repository sarà reso disponibile agli studenti tramite [Tristo Mietitore](https://github.com/mapio/tristo-mietitore), [See you](https://github.com/mapio/see-you) e [See you viewer](https://github.com/mapio/see-you-viewer), una *suite* di strumenti che consentono la somministrazione, raccolta e valutazione di esercizi di programmazione.
+
+Il docente provvederà le necessarie istruzioni durante lo svolgimento delle lezioni.
 
 ## Nota di copyright
 
