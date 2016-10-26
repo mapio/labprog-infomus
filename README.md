@@ -1,4 +1,4 @@
-# Leioni del laboratorio di "Programmazione" del corso di "Informatica Musicale"
+# Lezioni del laboratorio di "Programmazione" del corso di "Informatica Musicale"
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
