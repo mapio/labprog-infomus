@@ -9,6 +9,20 @@ Il contenuto relativo ad una lezione coincide sostanzialmente con quanto descrit
 per lo svolgimento degli esercizi del laboratorio di
 programmazione](https://santini.di.unimi.it/d/labprog/laboratorio.html)" a cui si rimanda per maggiori informazioni.
 
+## In laboratorio
+
+Durante lo svolgimento delle lezioni, il materiale contenuto in questo repository sarà reso disponibile agli studenti tramite [Tristo Mietitore](https://github.com/mapio/tristo-mietitore), [See you](https://github.com/mapio/see-you) e [See you viewer](https://github.com/mapio/see-you-viewer), una *suite* di strumenti che consentono la somministrazione, raccolta e valutazione di esercizi di programmazione.
+
+Per configurare il proprio account, al primo utilizzo, ogni studente deve impartire il seguente comando alla shell
+
+    curl -sL https://git.io/labprog | bash
+
+o alternativamente (qualora il comando `curl` non fosse disponibile), il comando
+
+    wget -qO- https://git.io/labprog  | bash
+
+Il docente provvederà quindi a dare le ulteriori necessarie istruzioni durante lo svolgimento delle lezioni.
+
 ## A casa
 
 Chi intendesse utilizzare questo materiale al di fuori del laboratorio (ad esempio per esercitarsi a casa, o per prepararsi all'esame) può scaricare un [archivio compresso](https://github.com/mapio/labprog-infomus/archive/master.zip) di questo repository, oppure ottenere un *clone* locale con il comando `git clone git@github.com:mapio/labprog-infomus.git`; in questo caso si osserva che:
@@ -30,12 +44,6 @@ essere definita semplicemente portandosi nella directory in cui è contenuto que
 file `README.md` ed impartire il comando
 
 	export MAKEFILES=$(pwd)/Makefile
-
-## In laboratorio
-
-Durante lo svolgimento delle lezioni, il materiale contenuto in questo repository sarà reso disponibile agli studenti tramite [Tristo Mietitore](https://github.com/mapio/tristo-mietitore), [See you](https://github.com/mapio/see-you) e [See you viewer](https://github.com/mapio/see-you-viewer), una *suite* di strumenti che consentono la somministrazione, raccolta e valutazione di esercizi di programmazione.
-
-Il docente provvederà le necessarie istruzioni durante lo svolgimento delle lezioni.
 
 ## Nota di copyright
 
