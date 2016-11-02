@@ -124,7 +124,7 @@ else ifdef jcode
 		$(reset);\
 		exit 1;\
 	fi
-	@bash -c "echo -e '#!/bin/sh\nexec java $$(cat .main-$@) \"\$$@\"' > $@"
+	@bash -c "echo -e '#!/bin/sh\nexec java -Duser.language=ROOT $$(cat .main-$@) \"\$$@\"' > $@"
 	@chmod u+x $@
 else ifdef bcode
 	@rm -f .main-$@ $@
