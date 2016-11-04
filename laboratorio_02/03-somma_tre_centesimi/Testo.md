@@ -69,10 +69,17 @@ mobile, non usate dei `double` per memorizzare le valute, bensì usate degli
 Detto altrimenti, memorizzate ad esempio il valore `1.20` come l'intero `120`
 (centoventi centesimi, appunto, corrispondono a un euro e venti centesimi).
 
-Per passare ai centesimi è sufficiente moltiplicare per 100. Viceversa, le
-operazioni di divisione e modulo (che in Java si scrive `%`), consentono di
-ottenere, dato un numero in centesimi, la parte intera e i centesimi che lo
-compongono.
+Per passare ai centesimi è sufficiente moltiplicare per 100, ma per poter
+memorizzare in un `int` il risultato di una espressione `double` dovete
+*forzare* il tipo anteponendo `(int)` all'espressione, come in
+
+    i = (int)(d * 100)
+
+dove `d` è una variabile `dobule`  e `i` è una variabile `int`.
+
+Viceversa, le operazioni di divisione e modulo (che in Java si scrive `%`),
+consentono di ottenere, dato un numero in centesimi, la parte intera e i
+centesimi che lo compongono.
 
 Infine, dato un numero `x`, il suo valore assoluto può essere ottenuto con
 `Math.abs(x)`; ad esempio le espressioni `Math.abs(3)` e `Math.abs(-3)` valgono
