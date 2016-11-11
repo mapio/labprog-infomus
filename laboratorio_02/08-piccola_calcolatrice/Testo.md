@@ -31,7 +31,7 @@ Esempio
 
 Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 
@@ -43,7 +43,7 @@ il programma emette nel flusso di uscita
 
 Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 
@@ -55,7 +55,7 @@ il programma emette nel flusso di uscita
 
 Infine, eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 

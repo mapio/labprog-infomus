@@ -33,7 +33,7 @@ Esempio
 
 Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 
@@ -46,7 +46,7 @@ il programma emette nel flusso d'uscita
 Attenzione: il programma deve funzionare anche quando la somma degli importi è
 negativa. Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 

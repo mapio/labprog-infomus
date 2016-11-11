@@ -28,7 +28,7 @@ Esempio
 
 Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 
@@ -52,11 +52,11 @@ vostro sistema è configurato per usare la virgola e nel flusso di ingresso
 invece usate il punto, verrà emesso un errore.
 
 Per forzare il sitema a utilizzare il punto (che è quello contenuto dei file di
-test), se invece di usare `./soluzione` (che si prende cura della questione),
+test), se invece di usare `soluzione` (che si prende cura della questione),
 volete invocare direttamente la JVM, usate l'opzione `-Duser.language=ROOT`;
 detto altrimenti, o testate il codice con
 
-    ./soluzione < input-1.txt
+    soluzione < input-1.txt
 
 oppure con
 

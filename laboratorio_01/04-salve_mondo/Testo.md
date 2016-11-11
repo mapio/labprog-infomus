@@ -29,7 +29,7 @@ Osservate che se utilizzate il comando
 per compilare il codice poi, indipendentemente dal nome del file sorgente,
 potete eseguire il vostro programma impartendo il comando
 
-    ./soluzione
+    soluzione
 
 
 Suggerimenti

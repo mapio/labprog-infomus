@@ -22,7 +22,7 @@ Esempio
 
 Eseguendo
 
-    ./soluzione
+    soluzione
 
 e avendo nel flusso di ingresso
 
