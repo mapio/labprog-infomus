@@ -1,44 +1,30 @@
 import java.util.Scanner;
 
 public class Soluzione {
-	public static void main(String args[]) {
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+    public static void main(String args[]) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
 
-		/* stampa n - 1 righe… */
-		for (int r = 0; r < n - 1; r += 1) {
+        /* stampa n - 1 righe… */
+        for (int r = 0; r < n - 1; r += 1) {
+            /* stampa ( 3 * n - 1 ) - r ) spazi */
+            for (int c = 0; c < (3 * n - 1) - r; c += 1) System.out.print(" ");
+            System.out.println("*");
+        }
 
-			/* stampa ( 3 * n - 1 ) - r ) spazi */
-			for (int c = 0; c < ( 3 * n - 1 ) - r; c += 1)
-				System.out.print(" ");
+        /* stampa n righe… */
+        for (int r = 0; r < n; r += 1) {
+            /* stampa r spazi */
+            for (int c = 0; c < r; c += 1) System.out.print(" ");
+            System.out.print("*");
+            /* stampa ( 2 * n - 1 ) - ( 2 * r ) spazi */
+            for (int c = 0; c < (2 * n - 1) - (2 * r); c += 1) System.out.print(" ");
+            System.out.println("*");
+        }
 
-			System.out.println("*");
-		}
-
-		/* stampa n righe… */
-		for (int r = 0; r < n; r += 1) {
-
-			/* stampa r spazi */
-			for (int c = 0; c < r; c += 1)
-				System.out.print(" ");
-
-			System.out.print("*");
-
-			/* stampa ( 2 * n - 1 ) - ( 2 * r ) spazi */
-			for (int c = 0; c < ( 2 * n - 1 ) - ( 2 * r ); c += 1) {
-				System.out.print(" ");
-			}
-
-			System.out.println("*");
-
-		}
-
-		/* stampa l'ultima riga… */
-		/* stampa n spazi */
-		for (int c = 0; c < n; c += 1)
-			System.out.print(" ");
-
-		System.out.println("*");
-
-	}
+        /* stampa l'ultima riga… */
+        /* stampa n spazi */
+        for (int c = 0; c < n; c += 1) System.out.print(" ");
+        System.out.println("*");
+    }
 }
