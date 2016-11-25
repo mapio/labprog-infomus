@@ -8,19 +8,32 @@ Il codice Morse, inventato da Samuel Finley Breese Morse nel 1836, è un modo di
 tradurre l'insieme di lettere dell'alfabeto e delle cifre decimali in sequenze
 di due soli simboli (punto e linea):
 
-    A .-            N -.
-    B -...          O ---
-    C -.-.          P .--
-    D -..           Q --.
-    E .             R .-.
-    F ..-.          S ...
-    G --.           T -  
-    H ....          U ..-
-    I ..            V ...
-    J .---          W .--
-    K -.-           X -..
-    L .-..          Y -.--
-    M --            Z --
+    A .-
+    B -...
+    C -.-.
+    D -..
+    E .
+    F ..-.
+    G --.
+    H ....
+    I ..
+    J .---
+    K -.-
+    L .-..
+    M --
+    N -.
+    O ---
+    P .--.
+    Q --.-
+    R .-.
+    S ...
+    T -
+    U ..-
+    V ...-
+    W .--
+    X -..-
+    Y -.--
+    Z --..
 
 Inizialmente usato per le trasmissioni col telegrafo a filo e radiofonico, resta
 un interessante esempio di codifica, anche se oggi è usato ormai solo in
@@ -44,7 +57,7 @@ Ad esempio, su input
 
 il programma emette
 
-    -... . .-.. .-.. .-   --.- ..- . ... - .-  --. .. --- .-. -. .- - .-   
+    -... . .-.. .-.. .-   --.- ..- . ... - .-  --. .. --- .-. -. .- - .-
 
 
 Vincoli
@@ -71,7 +84,7 @@ e avendo
 
 nel flusso di ingresso, il programma emette
 
-    ... .--. . .-. .. .- -- ---  ...- .- -.. .-  -... . -. .  --.- ..- . ... - .-  ...- --- .-.. - .-   
+    ... .--. . .-. .. .- -- ---  ...- .- -.. .-  -... . -. .  --.- ..- . ... - .-  ...- --- .-.. - .-
 
 nel flusso d'uscita.
 
