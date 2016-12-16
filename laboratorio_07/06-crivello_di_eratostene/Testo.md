@@ -15,7 +15,7 @@ modo:
   "riempiono" tutte le posizioni multiple di P;
 
 al termine del procedimento, le posizioni "vuote" corrispondono ai numeri primi
-(se infatti una posizione corrispondesse ad un numero composto, sarebbe stata
+(se infatti una posizione corrispondesse a un numero composto, sarebbe stata
 rimepita).
 
 Scrivete un programma che, dato un intero N come parametro sulla linea di

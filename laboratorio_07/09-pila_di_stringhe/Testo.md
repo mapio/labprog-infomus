@@ -8,18 +8,18 @@ Una *pila* (di stringhe) è una struttura dati in cui è possibile memorizzare u
 insieme di stringhe secondo una politica d'accesso *last in first out* (o
 *LIFO*) nel senso che è possibile prelevare per prima dall'insieme la stringa
 che vi è stata aggiunta per ultima. Più precisamente, le *operazioni* consentite
-sulla *pila*:
+sulla *pila* sono:
 
 - `init N` che predispone la *pila* in modo che possa contenere al massimo `N` stringhe,
-- `push S` che aggiunte la stringa `S` (come ultima) sulla *pila*
-  (o segnala un errore nel caso la *pila* contenga già `N` stringhe),
+- `push S` che aggiunge la stringa `S` (come ultima) sulla *pila*
+  (o segnala un errore nel caso in cui la *pila* contenga già `N` stringhe),
 - `pop` che preleva dalla *pila* l'ultima stringa aggiunta e la restituisce
-  (o segnala un errore nel caso la *pila* sia vuota),
+  (o segnala un errore nel caso in cui la *pila* sia vuota),
 - `top` che restituisce l'ultima stringa aggiunta alla *pila* senza toglierla dalla pila
-  (o segnala un errore nel caso la *pila* sia vuota),
-- `empty` che restituisce `true` o `false` a seconda che la pila sia vuota, o meno.
+  (o segnala un errore nel caso in cui la *pila* sia vuota),
+- `empty` che restituisce `true` o `false` a seconda che la pila sia vuota o meno.
 - `full` che restituisce `true` o `false` a seconda che la pila sia piena
-  (ossia contenga `N` stringhe), o meno.
+  (ossia contenga `N` stringhe) o meno.
 
 Scrivete un programma che implementi una *pila* e, data una sequenza di
 operazioni sulla *pila* nel flusso d'ingresso, emetta i valori restituiti e gli
@@ -71,10 +71,10 @@ stringa senza spazi nel caso del comando `push`); l'operazione `init` compare
 sempre e solo sulla prima linea.
 
 Nel flusso di uscita deve essere presente una linea per ciascuna operazione che
-emette una stringa, o un errore; le stringhe vanno emesse tra virgolette `"`,
+emette una stringa o un errore; le stringhe vanno emesse tra virgolette `"`,
 gli errori devono essere emessi come `!empty` e `!full` rispettivamente per la
-pila vuota e piena, i valori booleani devono essere emessi come `ture` e `false`
-(senza virgolette, o punti esclamativi).
+pila vuota e piena, i valori booleani devono essere emessi come `true` e `false`
+(senza virgolette o punti esclamativi).
 
 
 Esempio
@@ -115,11 +115,5 @@ nel flusso d'uscita.
 
 Suggerimenti
 ------------
-
-Potete usare un vettore di stringhe per implementare la *pila*, tenendo traccia
-del numero di elementi sulla *pila*, iniziando ad occuparlo dalla posizione 0 e
-aggiungendo e togliendo elementi sempre dalla posizione piena di indice più
-alto.
-
-Potrebbe essere comodo raccogliere il vettore (e la sua altezza) assieme alle
-*operazioni* della pila in una apposita classe.
+Potrebbe essere comodo raccogliere gli *attributi* necessari per la
+rappresentazione della pila assieme alle *operazioni* in una apposita classe.

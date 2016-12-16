@@ -38,10 +38,3 @@ Eseguendo `soluzione` e avendo
     4 3 9
 
 nel flusso di ingresso, il programma emette `10` nel flusso d'uscita.
-
-
-Suggerimenti
-------------
-
-Osservazioni
-------------

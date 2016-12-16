@@ -18,7 +18,7 @@ emettendone ogni lettera secondo la seguente *visualizzazione* delle singole let
     |__/ [__   |  |  | |  | | | |  \/   \_/    /
     |  \ ___]  |  |__|  \/  |_|_| _/\_   |    /__
 
-Ad Esempio, le parole `salve mondo` sono visualizzate come
+Ad esempio, le parole `salve mondo` sono visualizzate come
 
     ____ ____ _    _  _ ____   _  _ ____ _  _ ___  ____
     [__  |__| |    |  | |___   |\/| |  | |\ | |  \ |  |

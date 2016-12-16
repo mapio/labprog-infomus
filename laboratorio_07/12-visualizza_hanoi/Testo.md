@@ -30,8 +30,8 @@ la soluzione del rompicapo è data dalla sequenza di mosse
 	1 -> 2
 
 Scrivete un programma che, data una sequenza di mosse in tale formato nel flusso
-di ingresso ed il numero di dischi come parametro sulla linea di comando, emetta
-nel flusso d'uscita una "raffigurazione" dello stato delle torri ad ogni mossa.
+di ingresso e il numero di dischi come parametro sulla linea di comando, emetta
+nel flusso d'uscita una "raffigurazione" dello stato delle torri a ogni mossa.
 Ad esempio, date in input le mosse precedenti e 2 come numero di dischi, il
 programma emette:
 
@@ -65,7 +65,7 @@ ogni raffigurazione:
 - un disco di dimensione D è raffigurato con 2D copie del carattere `*`
   (di cui D prima e D dopo del palo su cui è posto),
 - i 3 pali sono raffigurati ciascuno da N copie del carattere ´|´,
-- i 3 pali hanno distanza pari a  2D  caratteri l'uno dall'altro,
+- i 3 pali hanno distanza pari a 2D caratteri l'uno dall'altro,
 - la "base" su cui poggiano i pali è raffigurata 6D + 5 copie del carattere `–`,
 - tra una "raffigurazione" e la successiva c'è una sola riga vuota,
 - tutte le righe dell'output (eccetto quella vuota) sono costituite da 6D + 5 caratteri.

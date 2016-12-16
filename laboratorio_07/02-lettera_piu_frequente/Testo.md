@@ -33,4 +33,4 @@ Eseguendo `soluzione` e avendo
     non ci sono piu le mezze stagioni
 
 nel flusso di ingresso il programma emette `4` (che è il numero di volte che la
-lettara `o` figura tra le parole in input).
+lettera `o` figura tra le parole in input).

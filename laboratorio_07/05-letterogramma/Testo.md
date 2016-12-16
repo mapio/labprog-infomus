@@ -6,7 +6,7 @@ Descrizione
 
 Scrivere un programma che, data una sequenza di lettere minuscole come argomenti
 sulla linea di comando, emetta nel flusso di uscita una sequenza di colonne
-(separate l'una dall'altra da una colonna di spazi ed allineate al basso)
+(separate l'una dall'altra da una colonna di spazi e allineate al basso)
 ciascuna composta di lettere consecutive a partire dalla lettera `a` e
 terminante, rispettivamente, nella lettera indicata.
 

@@ -62,7 +62,7 @@ per 2. Usando la notazione usuale della scuola elementare, al primo passo si ha
 
 e si inizia moltiplicando 2 * 6 ottenendo 12, la prima cifra a sinistra del
 risultato è pertanto un 2, con riporto di 1. Ora si passa alla seconda cifra del
-vettore, moltiplicando 2 * 1 otenendo un 2, a cui va sommato il riporto, per un
+vettore, moltiplicando 2 * 1 ottenendo un 2, a cui va sommato il riporto, per un
 totale di 3:
 
 	0 0 0 ... 1 6 x
@@ -70,8 +70,8 @@ totale di 3:
 	----------------
 	0 0 0 ... 3 2    risultato
 
-ottenendo in fine il risulato finale, posto che N fosse uguale a 6.
+ottenendo il risulato finale, posto che N fosse uguale a 5.
 
 Per emettere il risultato basta scorrere le cifre del vettore dall'ultima
-(corrispondente alla cifra più a sinistra del numero) alla prima iniziando a
+(corrispondente alla cifra più a sinistra del numero) alla prima, iniziando a
 emettere le cifre solo dopo che si sarà incontrata la prima diversa da 0.

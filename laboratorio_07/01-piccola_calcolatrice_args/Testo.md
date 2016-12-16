@@ -16,10 +16,10 @@ il programma deve emettere la stringa `errore`.
 Vincoli
 -------
 
-I numeri coninvolti possono tutti essere rappresentati da variabili di tipo
+Tutti i numeri coninvolti possono essere rappresentati da variabili di tipo
 `int`.
 
-Gli argomenti della linea di comando sono sempre tre, corrispondenti agli
+Gli argomenti da linea di comando sono sempre tre, corrispondenti agli
 operandi e l'operatore, l'operatore è una stringa a scelta tra: `+`, `-`, `x` e `/`
 (non deve essere cioè gestito il caso in cui vengano introdotte operazioni
 "sintatticamente errate").
@@ -52,4 +52,4 @@ Infine, eseguendo
 
 il programma emette nel flusso di uscita
 
-    errore    
+    errore

@@ -30,14 +30,14 @@ per ogni numero razionale esiste una sola frazione continua che lo rappresenti
 
 Scrivete un programma che, data una sequenza di numeri interi positivi come
 argomenti sulla linea di comando, emetta la frazione (semplice) corrispondente
-alla frazione continnua ottenuta da tale sequenza.
+alla frazione continua ottenuta da tale sequenza.
 
 
 Vincoli
 -------
 
 Tutti i numeri coinvolti nel programma possono essere rappresentati da variabili
-di tipo `int`; la linea di comando contiene sempre almeno un intero. L'otuput
+di tipo `int`; la linea di comando contiene sempre almeno un intero. L'output
 deve essere costituito dal numeratore, seguito da ` / ` (spazi compresi) e quindi dal
 denominatore della frazione semplice.
 
@@ -72,7 +72,7 @@ riceve due parametri interi e restituisce un vettore che li combina.
 Osservazioni
 ------------
 
-Si può dimostarre che ad ogni numero irrazionale corrisponde  un’unica frazione
+Si può dimostare che a ogni numero irrazionale corrisponde un’unica frazione
 continua infinita, questo fatto suggerisce l'uso delle frazioni continue
 (finite, ottenute troncando quelle infinite) per ottenere approssimazioni
 razionali dei numeri irrazionali.
