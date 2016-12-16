@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Soluzione {
+    public static void hanoi(int n, int from, int to, int tmp) {
+        if (n == 0) return;
+        hanoi(n - 1, from, tmp, to);
+        System.out.println(from + " -> " + to);
+        hanoi(n - 1, tmp, to, from);
+    }
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        hanoi(s.nextInt(), 0, 2, 1);
+    }
+}
