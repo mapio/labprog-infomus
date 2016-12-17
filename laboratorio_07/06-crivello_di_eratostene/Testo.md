@@ -26,7 +26,7 @@ di N.
 Vincoli
 -------
 
-Il numero N è compreso tra 1 e 10000, estremi compresi. Il flusso di uscita deve
+Il numero N è compreso tra 1 e 500000, estremi compresi. Il flusso di uscita deve
 contenere un numero primo per riga.
 
 
