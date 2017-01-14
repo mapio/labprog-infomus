@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Soluzione {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        String res = null;
+        Pila p = new Pila();
+        while (s.hasNextLine()) {
+            String[] cmd = s.nextLine().split(" ");
+            switch (cmd[0]) {
+                case "init": p.init(Integer.parseInt(cmd[1])); break;
+                case "push":
+                    if (p.isFull())
+                        System.out.println("!full");
+                    else
+                        p.push(cmd[1]);
+                    break;
+                case "pop":
+                    if (p.isEmpty())
+                        System.out.println("!empty");
+                    else
+                        System.out.println('"' + p.pop() + '"');
+                    break;
+                case "top":
+                    if (p.isEmpty())
+                        System.out.println("!empty");
+                    else
+                        System.out.println('"' + p.top() + '"');
+                    break;
+                case "full": System.out.println(p.isFull()); break;
+                case "empty": System.out.println(p.isEmpty()); break;
+            }
+        }
+    }
+}

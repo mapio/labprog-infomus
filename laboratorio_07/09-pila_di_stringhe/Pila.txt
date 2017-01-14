@@ -1,0 +1,23 @@
+class Pila {
+    private String[] stack = null;
+    private int top = -1;
+    public void init(final int n) {
+        stack = new String[n];
+        top = 0;
+    }
+    public void push(final String str) {
+        stack[top++] = str;
+    }
+    public String pop() {
+        return stack[--top];
+    }
+    public String top() {
+        return stack[top - 1];
+    }
+    public boolean isFull() {
+        return top == stack.length;
+    }
+    public boolean isEmpty() {
+        return top == 0;
+    }
+}
