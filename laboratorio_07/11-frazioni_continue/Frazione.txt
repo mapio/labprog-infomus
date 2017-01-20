@@ -1,0 +1,21 @@
+public class Frazione {
+    private long num;
+    private long den;
+
+    public Frazione(long num, long den) {
+        this.num = num;
+        this.den = den;
+    }
+
+    public Frazione piu(Frazione f) {
+        return new Frazione(this.num * f.den + this.den * f.num, this.den * f.den);
+    }
+
+    public Frazione inverti() {
+        return new Frazione(this.den, this.num);
+    }
+
+    public String toString() {
+        return this.num + " / " + this.den;
+    }
+}

@@ -1,0 +1,13 @@
+public class SoluzioneConArray {
+    public static int[] fc(int n, int a[]) {
+        if (n == a.length - 1) return new int[] {a[n], 1};
+        int[] nd = fc(n + 1, a);
+        return new int[] {a[n] * nd[0] + nd[1], nd[0]};
+    }
+    public static void main(String[] args) {
+        int[] a = new int[args.length];
+        for (int i = 0; i < args.length; i++) a[i] = Integer.parseInt(args[i]);
+        int[] nd = fc(0, a);
+        System.out.println(nd[0] + " / " + nd[1]);
+    }
+}

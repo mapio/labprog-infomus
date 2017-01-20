@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Soluzione {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        ArrayList<Integer> seq = new ArrayList<Integer>();
+
+        while (s.hasNextInt()) seq.add(s.nextInt());
+        int n = seq.size();
+
+        int i, j;
+        for (i = n - 2; i >= 0; --i) {
+            for (j = i + 1; j < n; j++)
+                if (seq.get(i) < seq.get(j)) break;
+            if (j == n) break;
+        }
+
+        if (i >= 0) System.out.println(seq.get(i));
+    }
+}
