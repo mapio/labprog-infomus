@@ -7,7 +7,7 @@ Questo repository contiene i testi degli esercizi del [laboratorio](https://sant
 
 Il contenuto relativo ad una lezione coincide sostanzialmente con quanto descritto nella guida "[Istruzioni
 per lo svolgimento degli esercizi del laboratorio di
-programmazione](https://santini.di.unimi.it/d/labprog/laboratorio.html)" a cui si rimanda per maggiori informazioni.
+programmazione](http://reaper.srv.di.unimi.it/manuale.html)" a cui si rimanda per maggiori informazioni.
 
 ## In laboratorio
 
@@ -19,11 +19,13 @@ valutazione di esercizi di programmazione.
 Per configurare il proprio account, al primo utilizzo, ogni studente deve
 impartire il seguente comando alla shell
 
-    curl -sL https://git.io/labprog | bash
+    curl -sL https://git.io/labprog-tools | bash
+    source $HOME/.bashrc
 
 o alternativamente (qualora il comando `curl` non fosse disponibile), il comando
 
-    wget -qO- https://git.io/labprog  | bash
+    wget -qO- https://git.io/labprog-tools  | bash
+    source $HOME/.bashrc
 
 Il docente provvederà quindi a dare le ulteriori necessarie istruzioni durante
 lo svolgimento delle lezioni.
