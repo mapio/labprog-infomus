@@ -43,9 +43,9 @@ il risultato corretto 701060205 con 71625 (ottenuto eliminando gli 0), la prova
 del nove continuerebbe a funzionare, sebbene il risultato sarebbe ovviamente
 errato!
 
-Scrivete un programma che, dato un numero naturale N nel flusso di ingresso,
-emetta tutte e sole le possibili terne di interi positivi A, B e C ciascuno minore di N
-per cui A x B è diverso da C, ma la prova del nove funziona.
+Scrivete un programma che, dato un numero naturale `N` nel flusso di ingresso,
+emetta tutte e sole le possibili terne di interi positivi `A`, `B` e `C` ciascuno
+minore di `N` per cui `A` x `B` è diverso da `C`, ma la prova del nove funziona.
 
 
 Vincoli
@@ -68,15 +68,12 @@ Eseguendo
 
 e avendo `6` nel flusso di ingresso, il programma emette
 
-	2 5 1
-	3 3 0
-	3 4 3
-	3 5 6
-	4 3 3
-	4 5 2
-	5 2 1
-	5 3 6
-	5 4 2
+    2 5 1
+    3 4 3
+    4 3 3
+    4 5 2
+    5 2 1
+    5 4 2
 
 nel flusso d'uscita.
 
@@ -85,7 +82,7 @@ Suggerimenti
 ------------
 
 Per emettere le terne in ordine lessicografico, è sufficiente usare tre cicli
-annidati, la variabile di ciascuno dei quali assuma valori compresi tra 0 ed N
+annidati, la variabile di ciascuno dei quali assuma valori compresi tra 0 ed `N`
 (estremi esclusi).
 
 
