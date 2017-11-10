@@ -44,7 +44,7 @@ del nove continuerebbe a funzionare, sebbene il risultato sarebbe ovviamente
 errato!
 
 Scrivete un programma che, dato un numero naturale N nel flusso di ingresso,
-emetta tutte e sole le possibili terne di numeri A, B e C ciascuno minore di N
+emetta tutte e sole le possibili terne di interi positivi A, B e C ciascuno minore di N
 per cui A x B è diverso da C, ma la prova del nove funziona.
 
 
@@ -86,7 +86,7 @@ Suggerimenti
 
 Per emettere le terne in ordine lessicografico, è sufficiente usare tre cicli
 annidati, la variabile di ciascuno dei quali assuma valori compresi tra 0 ed N
-(escluso).
+(estremi esclusi).
 
 
 Osservazioni
