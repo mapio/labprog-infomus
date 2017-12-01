@@ -49,7 +49,7 @@ che analizzi in sequenza tutte le stringhe del flusso di ingresso ha pertanto la
 forma seguente
 
     while (sc.hasNext()) {
-        String str = scanner.next();
+        String str = sc.next();
         ...
     }
 
