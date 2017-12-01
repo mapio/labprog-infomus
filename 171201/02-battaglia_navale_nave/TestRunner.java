@@ -22,11 +22,16 @@ public class TestRunner {
             int lunghezza = 0;
             for (p = 0; p < 100; p++) {
                 if (nave.occupa(tutte[p])) {
+                    nave.colpisci(tutte[p]);
                     lunghezza++;
                     if (inizio == -1) inizio = p;
                 }
             }
-            if (inizio == -1) System.out.println("Non ho trovato " + stringa);
+            if (inizio == -1) {
+                System.out.println("Non ho trovato " + stringa);
+                continue;
+            }
+            if (!nave.affondata()) System.out.println("Non affondata " + stringa);
             boolean orizzontale = nave.occupa(tutte[inizio + 1]);
             String verifica = (char)('A' + tutte[inizio].colonna) + "" + (tutte[inizio].riga + 1)
                 + ":" + lunghezza + ":" + (orizzontale ? 'O' : 'V');

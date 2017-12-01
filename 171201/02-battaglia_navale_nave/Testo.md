@@ -31,7 +31,7 @@ e l'orientamento (specificato da una lettera maiuscola pari a `O` per
 
     Nave n = Nave.parseNave("C1:6:V")
 
-si costruisce la nave `n` che inizia in posizione `(2, 3)`, è lunga `6` ed è
+si costruisce la nave `n` che inizia in posizione `(0, 2)`, è lunga `6` ed è
 orientata in verticale. Si assuma che la stringa passata come argomento
 corrisponda sempre a una nave "valida" (che possa cioè essere contenuta
 effettivamente sul campo di gioco).
