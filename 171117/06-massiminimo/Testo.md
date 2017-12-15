@@ -19,22 +19,21 @@ Ad esempio, se il flusso di ingresso contiene i numeri
 
 il programma emette
 
-    10
     20
-    11
+    10
     19
-    12
+    11
     18
-    13
+    12
     17
-    14
+    13
     16
+    14
     15
 
-nel flusso d'uscita; come si nota `10` è il più piccolo tra i valori in
-ingresso, mentre `20` è il maggiore, quindi `11` e `19` sono rispettivamente il
-più grande e più piccolo dei valori rimanenti, quindi lo sono `12` e `18` e così
-via.
+nel flusso d'uscita; come si nota `20` è il più grande tra i valori in ingresso,
+mentre `10` è il minore, quindi `19` e `11` sono rispettivamente il più grande e
+più piccolo dei valori rimanenti, quindi lo sono `18` e `12` e così via.
 
 
 Vincoli
@@ -52,8 +51,8 @@ Esempio
 Eseguendo `soluzione` e avendo `1 2 3` nel flusso di ingresso, il programma
 emette
 
-    1
     3
+    1
     2
 
 nel flusso d'uscita.
